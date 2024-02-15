@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(63, 35, 35);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.top-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.top-nav button {
+  padding: 1ch 2ch;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid rgb(170, 160, 160);
+}
+.top-nav button:hover {
+  background: rgb(63, 35, 35);
+  color: white;
+}
+header,
+section {
+  margin: 0 5vw;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.title h1 {
+  width: 20ch;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 40px;
+  word-spacing: 0.5px;
+}
+.title p {
+  width: 50ch;
+  text-align: center;
+  margin: 10px 0;
+}
+.bottom-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(198, 190, 190);
+  margin-bottom: 20px;
+}
+.bottom-nav p {
+  padding-right: 10px;
+}
+.search-area {
+}
+.search {
+  width: 70vw;
+  padding: 1ch 2ch;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid rgb(198, 190, 190);
+}
+.search-btn {
+  padding: 1ch 2ch;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 42, 0);
+  background: rgb(255, 42, 0);
+  color: white;
+}
+.search-nav button {
+  padding: 0.5ch 2ch;
+  margin: 20px 20px 10px 0;
+  border-radius: 20px;
+  border: 1px solid rgb(198, 190, 190);
+  font-weight: 500;
+}
+.search-nav button:hover {
+  border: 1px solid rgb(255, 42, 0);
+  background: rgb(255, 42, 0);
+  color: white;
+}
+.image {
+  width: 90vw;
+  position: relative;
+  margin: 20px 5vw;
+}
+.image img {
+  width: 90vw;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.image button {
+  border: 1px solid rgba(112, 112, 241, 0.45);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background: rgba(112, 112, 241, 0.391);
+  color: white;
+}
